@@ -34,7 +34,7 @@ const (
 	defaultRepeatCount = 2
 
 	// redisScanTimeout indicates how long to attempt to scan for peers.
-	redisScanTimeout = 5 * time.Second
+	redisScanTimeout = 30 * time.Second
 )
 
 // RedisMembership implements the Membership interface using Redis as the backend
